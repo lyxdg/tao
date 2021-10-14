@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> 验证码</title>
+    <link rel="stylesheet" href="./css/loging.css">
+</head>
+
+<body>
+    <div id="header">
+        <img src="./img/logo.png" />
+        <h1>注册</h1>
+    </div>
+    <div id="main">
+        <form method="get" οnsubmit="return false" action="">
+            <!-- 用户名 -->
+            <div>
+                <label> <span>会员名：</span><input type="text" class="text" id="name" /></label>
+                <p class="msg"><i class="ati"></i>5-25个字符，一个汉字为2个字符，推荐使用中文会员名</p>
+            </div>
+            <div>
+                <label> <span></span><b id="count">0个字符</b></label>
+            </div>
+            <!-- 登录密码 -->
+            <div>
+                <label><span>登录密码：</span><input type="password" class="text" id="pwd" /></label>
+                <p class="msg" style="width:200px; height:50px;"><i
+                        class="err"></i>6-16个字符，请使用字母加数字或符号的组合密码，不能单独使用字母、数字或符号。</p>
+            </div>
+            <!-- 密码强度 -->
+            <div style="margin:3px 0 10px 0">
+                <label><span></span><em class="active">弱</em><em>中</em><em>强</em></label>
+            </div>
+            <!-- 确认密码 -->
+            <div style="margin-bottom:20px;">
+                <label><span>确认密码：</span><input type="password" id="rePwd" class="text" disabled="" /></label>
+                <p class="msg"><i class="ati"></i>请在输入一次</p>
+            </div>
+            <!-- 验证码 -->
+            <div>
+                <label><span>验证码：</span>
+                    <input type="text" style="width:50px;" />
+                    <input id="txtCode" type="text" style=" width:60px;" readonly />
+                    <a href="#" class="changeimg" title="重新获取验证码" onClick="createCode()"></a>
+                </label>
+                <p class="msg"><i class="ati"></i>验证码输入有误</p>
+            </div>
+            <div>
+                <input class="submitBtn" type="button" value="同意协议并注册" />
+            </div>
+        </form>
+    </div>
+
+    <script src="./js/axios.js"></script>
+    <script src="./js/loging.js"></script>
+</body>
+
+</html>

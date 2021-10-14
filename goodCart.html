@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购物车</title>
+    <link rel="stylesheet" href="./css/goodCart.css">
+</head>
+
+<body>
+    <div class="shop_car_box">
+        <div class="w">
+            <div class="title">
+                <span class="line"></span>
+                我的购物车
+            </div>
+
+            <!-- 购物车商品模块 -->
+            <div class="cart-warp">
+                <!-- 头部全选模块 -->
+                <div class="cart-thead">
+                    <div class="t-checkbox">
+                        <input type="checkbox" style="margin-right: 5px;" name="" id="" class="check-all"> 全选
+                    </div>
+                    <div class="t-goods">商品信息</div>
+                    <div class="t-price">单价</div>
+                    <div class="t-num">数量</div>
+                    <div class="t-sum">金额</div>
+                    <div class="t-action">操作</div>
+                </div>
+                
+                <!-- 商品详细模块 -->
+                <div class="cart-item-list">
+
+                    <!-- 店铺模块 start -->
+
+                    <!-- <div class="shop" shopName="玫瑰与鹿旗舰店">
+                        <div class="J_ItemHead">
+                            <input class="J_CheckBoxShop" type="checkbox" name="orders[]">
+                            玫瑰与鹿旗舰店
+                        </div>
+
+                        <div class="cart-item">
+                            <div class="p-checkbox" style="width: 95px!important">
+                                <input type="checkbox" name="" id="" class="j-checkbox">
+                            </div>
+                            <div class="p-goods">
+                                <div class="p-img">
+                                    <img src="../resources/style/system/front/default/images/rexiao.png" alt="">
+                                </div>
+                                <div class="p-msg">
+                                    <div class="descript">
+                                        【5本26.8元】经典儿童文学彩图青少版八十天环游地球中学生语文教学大纲
+                                    </div>
+                                    <div class="p-type">
+                                        <span>类别：360g</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <span>数量：1</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-price">￥<em>12.60</em></div>
+                            <div class="p-num">
+                                <div class="quantity-form">
+                                    <a href="javascript:;" class="decrement">-</a>
+                                    <input type="text" class="itxt" value="1">
+                                    <a href="javascript:;" class="increment">+</a>
+                                </div>
+                            </div>
+                            <div class="p-sum">￥<em>12.60</em></div>
+                            <div class="p-action"><a class="delete" href="javascript:;">删除</a></div>
+                        </div>
+                    </div> -->
+                    
+                    <!-- 店铺模块 end -->
+
+
+
+                </div>
+
+                <!-- 结算模块 -->
+                <div class="cart-floatbar">
+                    <div class="select-all">
+                        <input type="checkbox" name="" id="" class="check-all">全选
+                    </div>
+                    <div class="operation">
+                        <a href="javascript:;" class="remove-batch"> 删除选中的商品</a>
+                        <a href="javascript:;" class="clear-all">清空购物车</a>
+                    </div>
+                    <div class="toolbar-right">
+                        <div class="amount-sum">已经选<em>1</em>件商品</div>
+                        <div class="price-sum">合计（不含运费）： <em>￥12.60</em></div>
+                        <div class="btn-area">去结算</div>
+                    </div>
+                </div>
+                <!-- cart-floatbar end -->
+            </div> <!-- cart-warp end -->
+
+            <!-- 商家热卖 -->
+            <div class="hotSale">
+                <div class="tit">
+                    <div class="title">
+                        <span class="line"></span>
+                        商家热卖
+                    </div>
+                    <div style="font-size: 18px;color: #CCA156;">更多></div>
+                </div>
+                <div class="pro_list">
+
+                    <!-- 热卖商品模板 start -->
+
+                    <!-- <a href="#none" class="pro_list_item">
+                        <div class="img">
+                            <img src="../resources/style/system/front/default/images/rexiao.png" alt="">
+                        </div>
+                        <div>这也不是不知道叫什么的水果</div>
+                        <div style="font-size: 14px;color: #E1251B;">¥<span style="font-size: 17px;">31</span>.00</div>
+                    </a> -->
+
+                    <!-- 热卖商品模板 end -->
+
+
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 引入js文件 -->
+    <script src="./js/jquery-2.2.4.js"></script>
+    <script src="./layer/layer.js"></script>
+    <script src="./js/axios.js"></script>
+    <!-- 判断是否登录的js -->
+    <script src="./js/isOnload.js"></script>
+    <!-- 商品热卖js -->
+    <script src="./js/hotSale.js"></script>
+    <!-- 购物车js -->
+    <script src="./js/goodCart.js"></script>
+    
+</body>
+
+</html>

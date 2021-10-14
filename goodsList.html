@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>淘宝女装</title>
+    <!-- css样式 -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/goodList.css">
+</head>
+
+<body>
+    <!-- 头部信息 -->
+    <div id="headMessage">
+        <div class="container clearfix">
+            <!-- 左边 -->
+            <ul class="fl">
+                <li>
+                    <span>中国大陆</span>
+                    <span class="iconfont arrow icon-xia"></span>
+                </li>
+                <li class="mr7 orange"><a href="./load.html" class="mr7">亲，请登录</a><a href="./loging.html">免费注册</a></li>
+                <li><a href="#none">手机逛淘宝</a></li>
+            </ul>
+            <!-- 右边 -->
+            <ul class="fr">
+                <li><a href="#none">我的淘宝</a>
+                    <span class="iconfont arrow icon-xia"></span></li>
+                <li>
+                    <span class="iconfont mr5 c4 icon-31gouwuchexuanzhong"></span>
+                    <a href="./goodCart.html">购物车</a>
+                    <strong class="cartGoodCount">0</strong>
+                    <span class="iconfont arrow icon-xia"></span></li>
+                <li>
+                    <a href="#"> <span class="iconfont mr5 store icon-shoucang"></span>收藏夹</a>
+                    <span class="iconfont arrow icon-xia"></span>
+                </li>
+                <li><a href="#none">商品分类</a></li>
+                <li><a href="#none">免费开店</a></li>
+                <li class="line">|</li>
+                <li><a href="#none">千牛卖家中心</a>
+                    <span class="iconfont arrow icon-xia"></span></li>
+                <li><a href="#none">联系客服</a>
+                    <span class="iconfont arrow icon-xia"></span></li>
+                <li><span class="iconfont c4 r5 icon-navicon"></span>
+                    <a href="#none">网站导航</a>
+                    <span class="iconfont arrow icon-xia"></span></li>
+
+            </ul>
+        </div>
+    </div>
+    <!-- 大图展示区 -->
+    <div id="showImg">
+        <img src="./img/bigImg.jpg" alt="">
+    </div>
+
+    <!-- 商品列表 -->
+    <div id="goods" class="container">
+        <div class="line clearfix" id="cont">
+
+            <!-- ========= 商品单元模板 start ========= -->
+
+            <!-- <div class="good">
+                <a href="#none" >
+                    <img src="images/good1.jpg" alt="">
+                    <div class="num">已售108件</div>
+                    <div>WnieTang -片式进口机</div>
+                    <div class="price">￥399</div>
+                    <div>价格:<span>￥399</span></div>
+                </a>
+                <a href="#none">进入店铺 ></a>
+                <a href="#none">立即购买 ></a>
+            </div> -->
+
+            <!-- ========= 商品单元模板 end ========= -->
+
+        </div>
+    </div>
+
+    <!-- js文件引入 -->
+    
+    <!-- jquery的js文件 -->
+    <script src="./js/jquery-2.2.4.js"></script>
+    <!-- layer弹出框的js文件 -->
+    <script src="./layer/layer.js"></script>
+    <!-- ajax请求js文件 -->
+    <script src="./js/axios.js"></script>
+    <!-- 引入判断是否有用户登录的js文件 -->
+    <script src="./js/isOnload.js"></script>
+    <!-- 商品列表的页面js文件 -->
+    <script src="./js/goodList.js"></script>
+</body>
+
+</html>
