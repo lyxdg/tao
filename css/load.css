@@ -1,0 +1,15 @@
+
+.maControl{
+    margin-top:20px;
+}
+.btnControl{
+    margin-left: 40px;
+}
+.btn{
+    width: 80px;
+    height: 33px;
+    color: #fff;
+    background:red;
+    border:0;
+    margin: 20px 0 0 20px;
+}

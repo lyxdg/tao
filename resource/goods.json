@@ -1,0 +1,62 @@
+[
+    {
+        "goodId":1,
+        "headImg":"./images/good01/headImg.jpg",
+        "price":399,
+        "name":"WinnieTang一片式进口机，无缝羊绒圆领打底针织衫",
+        "describle":"WinnieTang一片式进口机，无缝羊绒圆领打底针织衫",
+        "shop":"./shopDetail.html",
+        "oPrice":500,
+        "count":98,
+        "outCount":545,
+        "inCartCount":32
+    },
+    {
+        "goodId":2,
+        "headImg":"./images/good02/headImg.jpg",
+        "price":298,
+        "name":"MintCheese 秋冬复古法式少女 奶油玫瑰羊毛V领开衫毛衣",
+        "describle":"MintCheese 秋冬复古法式少女 奶油玫瑰羊毛V领开衫毛衣",
+        "shop":"./shopDetail.html",
+        "oPrice":340,
+        "count":198,
+        "outCount":667,
+        "inCartCount":41
+    },
+    {
+        "goodId":3,
+        "headImg":"./images/good03/headImg.jpg",
+        "price":888,
+        "name":"【10.6双面尼专场】别针装饰针织开衫女复古修身百搭圆领针织外套",
+        "describle":"【10.6双面尼专场】别针装饰针织开衫女复古修身百搭圆领针织外套",
+        "shop":"./shopDetail.html",
+        "oPrice":999,
+        "count":28,
+        "outCount":52,
+        "inCartCount":50
+    },
+    {
+        "goodId":4,
+        "headImg":"./images/good04/headImg.jpg",
+        "price":499,
+        "name":"Randompiece2021秋 优质美丽奴全羊毛 设计感慵懒 两件套针织毛衣",
+        "describle":"Randompiece2021秋 优质美丽奴全羊毛 设计感慵懒 两件套针织毛衣",
+        "shop":"./shopDetail.html",
+        "oPrice":540,
+        "count":20,
+        "outCount":158,
+        "inCartCount":60
+    },
+    {
+        "goodId":5,
+        "headImg":"./images/good05/headImg.jpg",
+        "price":800,
+        "name":"柒柒家 2021早秋新款双排扣配腰带藏蓝风衣女韩版中长款显高外套",
+        "describle":"柒柒家 2021早秋新款双排扣配腰带藏蓝风衣女韩版中长款显高外套",
+        "shop":"./shopDetail.html",
+        "oPrice":900,
+        "count":20,
+        "outCount":158,
+        "inCartCount":80
+    }
+]
